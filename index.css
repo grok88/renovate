@@ -171,6 +171,14 @@ button:focus-visible {
   justify-content: space-between;
 }
 
+.best {
+    margin-right: -15px;
+}
+
+.fair, .fast {
+    margin-right: -5px;
+}
+
 .offer-card-header-block:nth-child(2) {
   width: 140px;
 }
@@ -270,10 +278,6 @@ button:focus-visible {
 @media (max-width: 768px) {
   .header {
     padding: 16px;
-  }
-
-  .title {
-    font-size: 24px;
   }
 
   .offers-section {
